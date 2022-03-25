@@ -1,0 +1,177 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Wonderful Share Buttons",
+    "fields": {
+        "AAU": {
+            "caption": "Button Text",
+            "default_val": "Share on %s",
+            "doc": "When you enter \"%s\", the name of the social media app will be written according to which social media app the button belongs to.",
+            "editor": "DynamicValue",
+            "name": "displayText",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "URL To Share",
+            "default_val": "https://bubble.io/",
+            "doc": "The URL address you want to share",
+            "editor": "DynamicValue",
+            "name": "shareUrl",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "Description",
+            "default_val": "Wonderful Share Buttons is light-weight, super fast and easy!",
+            "doc": "Share description (not visible for some social media)",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Target",
+            "default_val": "Popup",
+            "doc": "Open in a popup on the same screen or in a different tab",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "pageTarget",
+            "options": "Popup,New Tab",
+            "rank": 4
+        },
+        "AAn": {
+            "caption": "Slot 1",
+            "default_val": "Facebook",
+            "editor": "Dropdown",
+            "name": "slot1",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 6
+        },
+        "AAo": {
+            "caption": "Slot 2",
+            "default_val": "Twitter",
+            "editor": "Dropdown",
+            "name": "slot2",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 7
+        },
+        "AAp": {
+            "caption": "Slot 3",
+            "default_val": "LinkedIn",
+            "editor": "Dropdown",
+            "name": "slot3",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 8
+        },
+        "AAq": {
+            "caption": "Slot 4",
+            "default_val": "Email",
+            "editor": "Dropdown",
+            "name": "slot4",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 9
+        },
+        "AAr": {
+            "caption": "Slot 5",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot5",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 10
+        },
+        "AAs": {
+            "caption": "Slot 6",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot6",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 11
+        },
+        "AAt": {
+            "caption": "Slot 7",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot7",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 12
+        },
+        "AAu": {
+            "caption": "Slot 8",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot8",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 13
+        },
+        "AAv": {
+            "caption": "Slot 9",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot9",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 14
+        },
+        "AAw": {
+            "caption": "Slot 10",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot10",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 15
+        },
+        "AAx": {
+            "caption": "Slot 11",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot11",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 16
+        },
+        "AAy": {
+            "caption": "Slot 12",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot12",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 17
+        },
+        "AAz": {
+            "caption": "*** ABOUT BUTTON TEXT: When you enter \"%s\", the name of the social media app will be written according to which social media app the button belongs to. ***",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "ABA": {
+            "caption": "*** With slots, you can show the buttons in the order you want. We do not recommend showing the same social media app in more than one slot. ***",
+            "editor": "Label",
+            "name": "info2",
+            "rank": 5
+        },
+        "ABB": {
+            "caption": "Slot 13",
+            "default_val": "Null",
+            "editor": "Dropdown",
+            "name": "slot13",
+            "options": "Facebook,Twitter,Tumblr,Email,Pinterest,LinkedIn,Reddit,Xing,Whatsapp,Hackernews,VK,Telegram,Gmail,Null",
+            "rank": 18
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    }
+}
